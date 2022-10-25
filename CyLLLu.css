@@ -1,0 +1,180 @@
+.Container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.Card {
+    width: 255px;
+    height: 555px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+}
+
+.IMG {
+    width: 228px;
+    height: 210px;
+    padding: 5px;
+}
+
+.Name {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(187, 44, 44);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Desc {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 8px;
+}
+
+.price {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.am {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(92, 92, 92);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+.Block1 {
+    width: 256px;
+    height: 70px;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kall {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(87, 86, 86);
+}
+
+.Blocks {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+
+}
+
+.button1 {
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    background-color: rgb(187, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1:hover {
+    background-color: rgb(197, 76, 76);
+}
+
+.Blo2 {
+    width: 135px;
+    height: 48px;
+    border: 1px solid rgb(187, 44, 44);
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Men2 {
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.button3 {
+    width: 50px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    border: none;
+    background-color: rgb(187, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button3:hover {
+    background-color: rgb(197, 76, 76);
+}
+
+.buttonBuy {
+    width: 256px;
+    height: 90px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(187, 44, 44);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.buttonBuy:hover {
+    background-color: rgb(197, 76, 76);
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .Container {
+        width: 96%;
+        justify-content: center;
+        
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .Container {
+        width: 91%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .Container {
+        width: 85%;
+        justify-content: center;
+        padding: 5px;
+    }
+}
+
+
+
+
